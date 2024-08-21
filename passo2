@@ -1,0 +1,19 @@
+calc = int(input(""))
+x = float(input(""))
+y = float(input(""))
+
+if (calc == 1):
+    resp1 = x + y
+    print(resp1)
+
+if (calc == 2):
+    resp2 = x - y
+    print(resp2)
+
+if (calc == 3):
+    resp3 = x * y
+    print(resp3)
+
+if (calc == 4):
+    resp4 = x / y
+    print(resp4)
